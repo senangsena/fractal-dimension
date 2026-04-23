@@ -8,7 +8,7 @@
 現在は主に**「書（カリグラフィー）やフォント」**の解析を目的として構成されていますが、非常に拡張性の高いディレクトリ構造を持っているため、**フォルダを追加するだけで、絵画、自然風景、テクスチャなど、あらゆる画像の解析にそのまま応用することが可能**です。
 
 ## 🌟 特徴
-- **Fiji(FracLac)処理の完全自動化**: アスペクト比を維持した1024pxへの自動リサイズとキャンバス配置。
+- **自動正規化**: アスペクト比を維持した1024pxへの自動リサイズとキャンバス配置。
 - **自動2値化**: Otsuメソッド（大津の2値化）による主観を排除したしきい値設定。
 - **学術的指標の同時算出**: フラクタル次元 (D) に加え、近似直線の決定係数 (R^2) と、黒ピクセル率 (Density) を算出。
 - **高い汎用性と拡張性**: 独立したデータフォルダ構造により、コードを書き換えることなく別ジャンル（例：絵画）のデータセット解析へ容易に拡張可能。
@@ -49,7 +49,7 @@ This repository provides a Python program to automatically calculate, compare, a
 While the current primary focus is on **analyzing calligraphy and fonts**, the tool is designed with a highly modular and scalable directory structure. **By simply adding new folders, it can be easily applied to analyze any other types of images**, such as paintings, natural landscapes, or textures, without changing the core code.
 
 ## 🌟 Features
-- **Fiji (FracLac) Automation**: Reproduces the exact process of resizing to 1024px while maintaining aspect ratio, and centering on a canvas.
+- **Auto Resizing**: Reproduces the exact process of resizing to 1024px while maintaining aspect ratio, and centering on a canvas.
 - **Auto-Binarization**: Objective thresholding using the Otsu method.
 - **Academic Metrics**: Calculates the Fractal Dimension (D), the coefficient of determination (R^2) of the fitted line, and the pixel density.
 - **High Extensibility**: The independent folder structure allows seamless application to new datasets (e.g., paintings) just by creating a new directory.
