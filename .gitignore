@@ -1,0 +1,24 @@
+# Pythonキャッシュ
+__pycache__/
+*.pyc
+
+# Macシステムファイル
+.DS_Store
+
+# ローカルの作業用フォルダ・ログ
+data/
+results/
+closed_folder.log
+venv/
+
+fractal_dimension.pptx
+santai_dawnload.py
+~$書の次元_メモ.pptx
+closed_folder.log
+memo.txt
+venv                            
+元データ画像
+raw_data_santai/
+~$fractal-dimention.xlsx
+fractal_dimension.pdf
+~$fractal_dimension.pptx
