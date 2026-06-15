@@ -14,7 +14,7 @@ RESULTS_DIR = "./results"
 LOG_FILE = "closed_folder.log"
 
 # 🌟【画像サイズ定数】ここを変更すれば全体に反映されます (例: 1024, 512, 256)
-IMG_SIZE = 1024
+IMG_SIZE = 256
 
 # 分析用ファイルの名前（すべて results フォルダ直下に配置）
 MASTER_CSV = os.path.join(RESULTS_DIR, "master_analysis.csv")
