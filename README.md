@@ -1,6 +1,6 @@
-# Fractal Dimension Analyzer for Calligraphy 🖋️📐
+# Fractal Dimension Analyzer for Calligraphy
 
-ボックスカウント法（Box-counting method）を用いて、画像（書道やフォント）のフラクタル次元を自動算出し、比較・解析するためのツールです。
+ボックスカウント法（Box-counting method）を用いて、画像（書道やフォント）のフラクタル次元を自動算出し、比較・解析する
 
 ## 🌟 主な機能
 - **自動正規化**: アスペクト比を維持したまま、指定サイズ（`IMG_SIZE` 定数で変更可能）のキャンバスにリサイズし、中央に配置します。
@@ -26,7 +26,7 @@
     ┣ 📜 fonts_results_raw.csv
     ┗ 📜 calligraphy_results_raw.csv
 ```
-## 🚀 使い方
+## 使い方
 1. **環境準備**:
    必要なライブラリをインストールします。
    `pip install opencv-python numpy matplotlib scipy pandas`
