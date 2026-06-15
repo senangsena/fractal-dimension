@@ -10,6 +10,7 @@ data/
 results/
 closed_folder.log
 venv/
+docs/
 
 fractal_dimension.pptx
 santai_dawnload.py
